@@ -1,17 +1,34 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import React, { useState } from "react";
+// import "./App.css";
+// import { render } from 'react-dom';
+// import { AgGridReact } from 'ag-grid-react';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// // import 'ag-grid-community/dist/styles/ag-grid.css';
+// // import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// // const App = () => {
+// //   const [rowData] = useState([
+// //       {make: "Toyota", model: "Celica", price: 35000},
+// //       {make: "Ford", model: "Mondeo", price: 32000},
+// //       {make: "Porsche", model: "Boxter", price: 72000}
+// //   ]);
+  
+// //   const [columnDefs] = useState([
+// //       { field: 'make' },
+// //       { field: 'model' },
+// //       { field: 'price' }
+// //   ])
+
+//   return (
+//     //   <div className="ag-theme-alpine" style={{height: 400, width: 600}}>
+//     //       <AgGridReact
+//     //           rowData={rowData}
+//     //           columnDefs={columnDefs}>
+//     //       </AgGridReact>
+//     //   </div>
+//   );
+// };
+
+// render(<App />, document.getElementById('root'));
+
+
